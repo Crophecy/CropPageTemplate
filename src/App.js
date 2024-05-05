@@ -1,23 +1,40 @@
 import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero';
+import Table from './components/Table';
+import Soil from './components/Soil';
+import Variety from './components/Variety';
+import Land from './components/Land';
+import Seeds from './components/Seeds';
+import Sowing from './components/Sowing';
+import Nursery from './components/Nursery';
+import Fertilizer from './components/Fertilizer';
+import Weed from './components/Weed';
+import Irrigation from './components/Irrigation';
+import Harvest from './components/Harvest';
+import PostHarvest from './components/PostHarvest';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Table />
+      <Soil/>
+      <Variety/>
+      <Land/>
+      <Seeds/>
+      <Sowing/>
+      <Nursery/>
+      <Fertilizer/>
+      <Weed/>
+      <Irrigation/>
+      <Harvest/>
+      <PostHarvest/>
+
+      
+      
+
+      
     </div>
   );
 }
